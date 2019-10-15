@@ -1,0 +1,15 @@
+cabrwave 将cabr波库的波,由多列分割为1列1个文件,注意扩展名区分大小写
+checkspe 从反应谱文件中读入给定周期处的谱值，与规范反应谱比较，找出满足误差的文件
+checkwave 将dt=0.02s的波文件选择出来，放入文件“wave0.02.txt”中
+getSpecCN 生成中国规范反应谱，spectr_cn.wtl
+waveconvert 生成sap和abaqus时程分析的波文件
+waveplot 可连续多图，ok，出报告用
+myxyplot tk
+myxyplot2 wxFrame,不好用，只能放大，不能缩小
+myxyplot_spe wxFrame,同myxyplot2，不好用，只能放大，不能缩小
+
+speplot 生成多条波的反应谱对比曲线 ok，出报告用
+speplotnew 选择speplot.inp文件，绘制波谱比较曲线,需要在inp文件中来回切换x和y向的地震波文件
+
+myXYplotAvi 绘制曲线动画过程，滞回曲线
+wave\1_0.txt, 2_0.txt 北京新机场动画演示数据
